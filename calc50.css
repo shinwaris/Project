@@ -1,0 +1,94 @@
+*
+{
+  padding: 0px;
+  margin: 5%;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+.calculator
+{
+  height: 350px;
+  border-radius: 10px;
+  background-color: rgba(121, 121, 121, 0.8);
+  border-width: 10px;
+  border-color: red;
+  border-style: groove;
+  outline-width: 5px;
+  outline-offset: inherit;
+  outline-color: invert;
+  outline-style: solid;
+  padding: 5px;
+}
+
+#display
+{
+  height: 50px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 1);
+  border-width: 3px;
+  border-style: ridge;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  left: 2px;
+  top: 0px;
+  margin: 0px;
+  color: white;
+  font-family: monospace;
+  padding: 5px;
+}
+
+#display:hover
+{
+  border-color: white;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  font-style: italic;
+}
+.btn:hover {
+  border-color: red;
+  font-style: normal;
+  }
+
+.calc50 {
+  height: 50px;
+  color: black;
+  border-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.back {
+  background-color: orange;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.size {
+  font-size: 13px;
+}
+
+input[value="="] {
+  background-color: lightgreen;
+}
+
+.opp {
+  background-color: lightblue;
+}
