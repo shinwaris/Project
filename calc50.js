@@ -1,4 +1,5 @@
 // Variables to be used
+// Shah Sawood
 var val = 0.0;
 
 // Function for adding characters to display
