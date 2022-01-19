@@ -5,3 +5,4 @@ General Demo Repo
 https://github.com/shinwaris/Project.git
 https://github.com/shinwaris/Shinwaris.git
 ```
+`git init` is also a git command
