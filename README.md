@@ -8,4 +8,4 @@ https://github.com/shinwaris/Shinwaris.git
 `git init` is also a git command
 
 click on [facebook](https://www.facebook.com/shahsawood.delta.9)
-![SVG](house.png)
+![SVG](house.png#gh-dark-mode-only)
