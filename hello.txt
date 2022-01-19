@@ -1,0 +1,12 @@
+{SHAH-SAWOOD}
+Pangram:
+========
+A quick brown fox jumsps over the lazy dog.
+Pack my red box with five dozen quality Jugs.
+
+Palindroms:
+===========
+Eye
+Level
+Noon
+Madam
