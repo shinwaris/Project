@@ -1,6 +1,6 @@
 # Project
 General Demo Repo
-**Public Repo**
+**Copy the below code to clone this repo**
 ```
 https://github.com/shinwaris/Project.git
 ```
