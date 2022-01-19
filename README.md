@@ -20,3 +20,15 @@ click on [facebook](https://www.facebook.com/shahsawood.delta.9)
   * Three-Third
 
 Hey this 🐵
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
