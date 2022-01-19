@@ -9,7 +9,7 @@ https://github.com/shinwaris/Shinwaris.git
 
 click on [facebook](https://www.facebook.com/shahsawood.delta.9)
 ![SVG](house.png#gh-light-mode-only)
-- [x] #739
+- [x] \#739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 * Item one
