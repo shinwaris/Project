@@ -254,3 +254,11 @@ int IsAlphabet(char c)
 {
 	return IsUpper(c) || IsLower(c);
 }
+char ToUpperCase(char c)
+{
+	if (IsUpper(c)) return c; else if (IsLower(c)) return c - ' '; else return '0';
+}
+char ToLowerCase(char c)
+{
+	if (IsLower(c)) return c; else if (IsUpper(c)) return c + ' '; else return '0';
+}
