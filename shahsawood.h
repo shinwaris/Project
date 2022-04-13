@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Create a string data type
+typedef char * string;
+
 // Print ascii value of a character
 int ascii_value(char c)
 {
@@ -148,10 +151,10 @@ void AP(void)
 	}
 }
 // Take integral input from user
-int get_integer(char *strings)
+int get_integer(string strings)
 {
 	// user input stores here
-	char str[1000];
+	string str = "\0";
 prompt:
 	// prompt user for input
 	printf("%s", strings);
@@ -193,15 +196,15 @@ prompt:
 	}
 	return atoi(str);
 }
-char * getString(char *s)
+string getString(string s)
 {
 
-	char *str = NULL;
+	string str = NULL;
 	printf ("%s", s);
 	scanf ("%m[^\n]%*c", &str);
 	return str;
 }
-char get_character(char *s)
+char get_character(string s)
 {
 	printf("%s", s);
 	char c;
@@ -226,7 +229,7 @@ int IsSpace(char c)
 {
 	return (c == ' ' || c == '\n' || c == '\r' || c == '\v' || c == '\t' || c == '\b' || c == '\f');
 }
-int IsNumber(char *s)
+int IsNumber(string s)
 {
 	int len = strlen(s);
 	int true = 1;
